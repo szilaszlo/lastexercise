@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slideshow Gallery</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+              <img src="images/altausee.jpg" style="width:100%">
+          </div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+              <img src="images/eibsee.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+              <img src="images/grundlsee.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+              <img src="images/koenigssee.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+              <img src="images/ödensee.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+              <img src="images/toplitzsee.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+        <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="images/altausee.jpg" style="width:100%" onclick="currentSlide(1)" alt="Altausee">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/eibsee.jpg" style="width:100%" onclick="currentSlide(2)" alt="Eibsee">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/grundlsee.jpg" style="width:100%" onclick="currentSlide(3)" alt="Grundlsee">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/koenigssee.jpg" style="width:100%" onclick="currentSlide(4)" alt="Königsee">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/ödensee.jpg" style="width:100%" onclick="currentSlide(5)" alt="Ödensee">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/toplitzsee.jpg" style="width:100%" onclick="currentSlide(6)" alt="Toplitzsee">
+            </div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</body>
+</html>
